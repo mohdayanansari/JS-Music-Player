@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+/* font-family: 'Nunito', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  font-family: "Nunito", sans-serif;
+  padding: 5px 0 5px 0;
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65;
+  gap: 10px;
+  color: #fff;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.brand img {
+  width: 40px;
+}
+/*!== Container */
+.container {
+  min-height: calc(100vh - 226px);
+  display: flex;
+  width: 80%;
+  color: #fff;
+  background-color: black;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 23px auto;
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.songList {
+  width: 60%;
+}
+/* ____________ */
+.songItem {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  color: black;
+  margin: 12px 0;
+  padding: 20px;
+  border-radius: 50px;
+}
+.song_name_time_icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.songItem img {
+  width: 60px;
+  border-radius: 50%;
+}
+.timestamp {
+}
+.songlistplay {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.play_icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+/* ! Footer */
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  height: 130px;
+  bottom: 0;
+  background-color: black;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+}
+.icons i {
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  color: #fff;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+
+.last{
+  position: absolute;
+  right: 10vw;
+  color: #fff;
+}

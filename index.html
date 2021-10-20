@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple-Music-JS-Player</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script
+      async
+      src="https://kit.fontawesome.com/d031466de0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--todo:::: Navbar -->
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="./assets/logo.png" alt="Spotify" /><span>Music Player</span>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Simple Music Player using JavaScript</h1>
+        <div>
+          <!-- Song Item -->
+          <div class="songItem">
+            <img  alt="cover" />
+
+            <span class="songName"></span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span>
+              <!-- icon -->
+              <i id="1" class="far fa-play-circle songItemPlay"></i>
+              <!-- icon end -->
+            </span>
+          </div>
+          <!-- Song Item Ends -->
+          <!-- Song Item -->
+          <div class="songItem">
+            <img  alt="cover" />
+
+            <span class="songName"></span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span>
+              <!-- icon -->
+              <i id="2" class="far fa-play-circle songItemPlay"></i>
+              <!-- icon end -->
+            </span>
+          </div>
+          <!-- Song Item Ends -->
+          <!-- Song Item -->
+          <div class="songItem">
+            <img  alt="cover" />
+
+            <span class="songName"></span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span>
+              <!-- icon -->
+              <i id="2" class="far fa-play-circle songItemPlay"></i>
+              <!-- icon end -->
+            </span>
+          </div>
+          <!-- Song Item Ends -->
+          <!-- Song Item -->
+          <div class="songItem">
+            <img  alt="cover" />
+
+            <span class="songName"></span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span>
+              <!-- icon -->
+              <i id="2" class="far fa-play-circle songItemPlay"></i>
+              <!-- icon end -->
+            </span>
+          </div>
+          <!-- Song Item Ends -->
+          <!-- Song Item -->
+          <div class="songItem">
+            <img  alt="cover" />
+
+            <span class="songName"></span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span>
+              <!-- icon -->
+              <i id="2" class="far fa-play-circle songItemPlay"></i>
+              <!-- icon end -->
+            </span>
+          </div>
+          <!-- Song Item Ends -->
+          <!-- Song Item -->
+          <div class="songItem">
+            <img  alt="cover" />
+
+            <span class="songName"></span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span>
+              <!-- icon -->
+              <i id="2" class="far fa-play-circle songItemPlay"></i>
+              <!-- icon end -->
+            </span>
+          </div>
+          <!-- Song Item Ends -->
+          <!-- Song Item -->
+          <div class="songItem">
+            <img  alt="cover" />
+
+            <span class="songName"></span>
+            <span class="songlistplay"
+              ><span class="timestamp">05:34</span>
+              <!-- icon -->
+              <i id="2" class="far fa-play-circle songItemPlay"></i>
+              <!-- icon end -->
+            </span>
+          </div>
+          <!-- Song Item Ends -->
+          
+          
+          
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <!-- todo::: Botoem --footer -->
+    <div class="bottom">
+      <input type="range" name="range" value="0" id="myProgressBar" min="0" max="100" />
+      <div class="icons">
+       <i id="previous" class="fas fa-3x fa-step-backward"></i>
+       <i id="masterPlay" class="far fa-3x fa-play-circle"></i>
+       <i id="next" class="fas fa-3x fa-step-forward"></i>
+      </div>
+      <div class="songInfo">
+        <img src="./assets/playing.gif" id="gif" width="40" alt="" />
+        let me love by justin bieber
+      </div>
+      <p class="last">Made by Ayan Ansari</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
